@@ -1,0 +1,94 @@
+/*SECTION 06 WEB*/
+.section-home-06{
+  background: url('../images/background-a-un-clic-de-home-psicoalianza.webp');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center center;
+  height: 640px;
+  padding: 0rem 0rem 0rem 0rem;
+  @media screen and (max-width: 1920px) {
+    background-size: 1920px auto;
+    height: 640px;
+  }
+  @media screen and (max-width: $window-size-01) {
+    background-size: 1590px auto;
+    height: 530px;
+  }
+  @media screen and (max-width: 1400px) {
+    background-size: 1400px auto;
+    height: 460px;
+  }
+  @media screen and (max-width: $window-size-02) {
+    background-size: 1200px auto;
+    height: 400px;
+  }
+}
+
+.content-section-home-06-01{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 640px;
+  @media screen and (max-width: $window-size-01) {
+    height: 530px;
+  }
+  @media screen and (max-width: 1400px) {
+    height: 460px;
+  }
+  @media screen and (max-width: $window-size-02) {
+    height: 400px;
+  }
+  h2:nth-child(1){
+    color: $blanco;
+    font-family: $Lato-Black;
+    font-size: $tx-size-01;
+    text-transform: uppercase;
+    margin: 0rem 0rem 5rem 0rem;
+    text-align: center;
+    @media screen and (max-width: $window-size-01) {
+      font-size: $tx-size-02;
+      margin: 0rem 0rem 4rem 0rem;
+    }
+  } 
+  p:nth-child(2){
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-05;
+    margin: 0rem 0rem 2.5rem 0rem;
+    span{
+      margin:0rem 1rem 0rem 1rem;
+    }
+    @media screen and (max-width: $window-size-01) {
+      font-size: $tx-size-06;
+      margin: 0rem 0rem 2rem 0rem;
+    }
+  } 
+  p:nth-child(3){
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-05;
+    margin: 0rem 0rem 2.5rem 0rem;
+    line-height: 1.5;
+    span{
+      margin:0rem 1rem 0rem 1rem;
+    }
+    @media screen and (max-width: $window-size-01) {
+      font-size: $tx-size-06;
+      margin: 0rem 0rem 2rem 0rem;
+    }
+  } 
+  p:nth-child(4){
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-05;
+    margin: 0rem 0rem 4rem 0rem;
+    line-height: 1.5;
+    span{
+      margin:0rem 1rem 0rem 1rem;
+    }
+    @media screen and (max-width: $window-size-01) {
+      font-size: $tx-size-06;
+      margin: 0rem 0rem 3.5rem 0rem;
+    }
+  } 
+}

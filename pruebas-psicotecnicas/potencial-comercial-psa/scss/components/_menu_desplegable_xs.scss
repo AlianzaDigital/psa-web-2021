@@ -1,0 +1,115 @@
+/* MENU DESPLEGABLE XS */
+.navbar.menu_xs{
+  padding: 0;
+}
+.progress.bar-xs{
+  background-color: rgba(156, 156, 156, .4);
+  border-radius:0px;
+  height: 5px;
+}
+.progress-bar.bar-xs{
+  // background-color: $color09;
+  background-color: $color-home-05;
+  border-radius:0px 5px 5px 0px;
+  height: 5px;
+}
+.navbar-toggler.menu_xs{
+  position: relative;
+  display: block;
+  padding: 15px;
+  width: 100%;
+  border:none;
+  border-radius: 0px;
+  font-family: $Lato-Regular;
+  color:$blanco-home;
+  background: $gradient02;
+  font-size: $tx-size-05 - .2;
+  span{
+    // position: absolute;
+    // right: 37px;
+    // top:15px;
+    .contacto-agil.icon-arrow-up{
+      color: $blanco-home;
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-left: 1.5rem;
+    }
+  }
+  &:focus{
+    outline: none;
+  }
+}
+.navbar-nav.menu_xs{
+  padding: 0px 18px 0px 18px;
+}
+.navbar-light .navbar-nav .nav-link.menu_xs{
+  position: relative;
+  font-family: $Lato-Regular;
+  color:$color-home-01;
+  font-size: $tx-size-04;
+  text-align: center;
+  padding: 20px 10px;
+  border-bottom: 1px solid rgba(255,255,255,.4);
+  span img{
+    position: absolute;
+    right: 22px;
+    top:25px;
+  }
+}
+.navbar-light .navbar-nav .nav-link.menu_xs.ultimo{
+  border:none;
+}
+
+.nav-xs-psa.navbar-collapse{
+  position: relative;
+  // border-top: 5px solid $color09;
+  border-top: 5px solid transparent;
+  border-image-source: $gradient08-b; 
+  border-image-slice: 1;
+  background: $negro-home;
+  padding: 65px 50px 35px 50px;
+}
+
+
+.nav-xs-psa.collapse{
+	padding: 65px 50px 35px 50px;
+	transition: .5s;
+	-moz-transition: .5s;
+}
+
+
+.nav-xs-psa.collapsing{
+	padding: 0px 50px 0px 50px;
+	opacity: 0;
+	transition: .25s;
+	-moz-transition: .25s;
+}
+
+span{
+  .contacto-agil.icon-menu-mobile-close{
+    position: absolute;
+    right: 10px;
+    top:10px;
+    color: $color-home-09;
+    font-weight: bold;
+    font-size: 2.25rem;
+  }
+}
+
+.tx-contacto-agil-xs-01{
+  color: $blanco-home;
+  font-size: $tx-size-05 - .2;
+  font-family: $Lato-Regular;
+  margin: 0rem 0rem 1.5rem 0rem;
+  text-align: center;
+}
+.tx-contacto-agil-xs-02{
+  margin: 2.5rem 0rem 1.5rem 0rem;
+}
+.tx-contacto-agil-xs-03{
+  color: $blanco-home;
+  font-size: $tx-size-05 - .2;
+  font-family: $Lato-Regular;
+  margin: 0rem 0rem 1.5rem 0rem;
+  text-align: center;
+}

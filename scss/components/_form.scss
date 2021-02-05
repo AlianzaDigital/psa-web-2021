@@ -1,0 +1,458 @@
+/* FORMULARIO */
+.section-form-psa{
+  padding: 3.5rem 0rem 0rem 0rem;
+  @media screen and (max-width: $window-size-04) {
+    padding: 0rem 0rem 0rem 0rem;
+  }
+}
+
+.section-form-psa-xs{
+  background: url('../images/formulario-pruebas-psicotecnicas-bg-mobile-psicoalianza-psa-web-psa-sitio-web-2020-psa-imagenes-sitio-web.webp');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0rem 3rem 0rem 3rem;
+  a:nth-child(1){
+    color: $blanco;
+    font-family: $Lato-Black;
+    font-size: $tx-size-06;
+    span{
+      margin:0rem .5rem 0rem 0rem;
+      .global-form.icon-arrow-left::before{
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+    }
+  }
+  h3:nth-child(2){
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-05 - .2;
+    text-align: center;
+    margin: 5rem 0rem 0rem 0rem;
+    span{
+      font-family: $Lato-Bold;
+    }
+  }
+}
+
+.volver-web{
+  color: $negro;
+  font-family: $Lato-Regular;
+  font-size: $tx-size-05 - .2;
+  span{
+    margin:0rem 1rem 0rem 0rem;
+    .global-form.icon-arrow-left::before{
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+  }
+  &:focus{
+    color: $color01;
+  }
+  &:hover{
+    color: $color01;
+  }
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-06;
+  }
+}
+
+.tx-section-form-psa-01{
+  color: $color01;
+  font-family: $Lato-Regular;
+  font-size: $tx-size-03;
+  text-align: center;
+  margin:2rem 0rem 8rem 0rem;
+  span{
+    font-family: $Lato-Bold;
+  }
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-04;
+  }
+}
+
+.tx-section-form-psa-02{
+  color: $negro;
+  font-family: $Lato-Regular;
+  font-size: $tx-size-05 - .2;
+  margin:0rem 0rem 4rem 0rem;
+  span{
+    color: $color10;
+  }
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-06;
+  }
+  @media screen and (max-width: $window-size-04) {
+    margin:5rem 1.5rem 2rem 1.5rem;
+    font-family: $Lato-Light;
+  }
+}
+
+.margen-box-form{
+  padding:0rem 3.5rem 0rem 3.5rem;
+  @media screen and (max-width: $window-size-02) {
+    padding:0rem 2.5rem 0rem 2.5rem;
+  }
+  @media screen and (max-width: $window-size-03) {
+    padding:0rem 1.5rem 0rem 1.5rem;
+  }
+  @media screen and (max-width: $window-size-04) {
+    padding:0rem 3.5rem 0rem 3.5rem;
+  }
+  @media screen and (max-width: $window-size-05) {
+    padding:0rem 3rem 0rem 3rem;
+  }
+}
+
+.form-group{
+  margin:0rem 0rem 3.5rem 0rem;
+  @media screen and (max-width: $window-size-04) {
+    margin:0rem 0rem 1.7rem 0rem;
+  }
+}
+
+label{
+  color: $negro;
+  font-family: $Lato-Bold;
+  font-size: $tx-size-05 - .2;
+  span{
+    color: $color10;
+  }
+  @media screen and (max-width: $window-size-04) {
+    font-size: $tx-size-06;
+  }
+}
+.form-control{
+  border-radius: .5rem;
+  border: 2px solid $gris02;
+  color: $negro;
+  font-family: $Lato-Light;
+  font-size: $tx-size-06;
+  height: 4rem;
+  padding: 0rem 2rem;
+  outline: none;
+  &:focus{
+    border: 2px solid $color12;
+    box-shadow: none;
+  }
+  @media screen and (max-width: $window-size-04) {
+    font-size: $tx-size-07;
+  }
+}
+
+.form-control.error{
+  border-radius: .5rem;
+  border: 2px solid $color11;
+  color: $color11;
+  &:focus{
+    border: 2px solid $color11;
+    box-shadow: none;
+  }
+}
+
+.form-control.correcto{
+  border-radius: .5rem;
+  border: 2px solid $color13;
+  color: $negro;
+  &:focus{
+    border: 2px solid $color13;
+    box-shadow: none;
+  }
+}
+
+.form-control.select{
+  background: url('../images/icon-down-form-select.webp');
+  background-position: 97.5% center;
+  background-repeat: no-repeat;
+  background-size: 14px 8px;
+}
+.form-control.optional{
+  margin:.5rem 0rem 0rem 0rem;
+}
+
+::placeholder {
+  color: $gris02;
+}
+
+.select.card.card-body{
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  border: none;
+  ul{
+    background: $blanco;
+    margin: 0;
+    list-style: none;
+    li{
+      display: block;
+      color: $negro;
+      cursor: pointer;
+      padding: 1.2rem 2rem;
+      font-family: $Lato-Light;
+      font-size: $tx-size-06;
+      &:focus{
+        color: $blanco;
+        background: $color14;
+      }
+      &:hover{
+        color: $blanco;
+        background: $color14;
+      }
+      
+    }
+  }
+}
+
+.iti__selected-flag{
+  padding: 0rem .5rem 0rem 1rem;
+}
+
+.tx-msg-form{
+  color: $color11;
+  font-family: $Lato-Light;
+  font-size: $tx-size-07;
+  @media screen and (max-width: $window-size-04) {
+    font-size: $tx-size-07 - .2;
+  }
+}
+
+.checkbox{
+  display: flex;
+  h3{
+    color: $negro;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-07 - .2;
+    margin: 0rem 0rem 0rem 1rem;
+    @media screen and (max-width: $window-size-04) {
+      font-size: $tx-size-07;
+    }
+    span a{
+      cursor: pointer;
+      color: $negro;
+      font-family: $Lato-Bold;
+      font-size: $tx-size-07 - .2;
+      @media screen and (max-width: $window-size-04) {
+        font-size: $tx-size-07;
+      }
+    }
+  }
+}
+
+.tx-msg-form.center{
+  text-align: center;
+}
+
+.list-unstyled{
+  color: $color11;
+  font-family: $Lato-Light;
+  font-size: $tx-size-07;
+  @media screen and (max-width: $window-size-04) {
+    font-size: $tx-size-07 - .2;
+  }
+}
+
+/* TERMINOS Y CONDICIONES */
+.seccion-terminos{
+  padding: 50px 0px;
+  @media screen and (max-width: $window-size-04) {
+    padding: 15px 0px;
+  }
+}
+.tx-section-terminos-01{
+  color:$color01;
+  font-family: $Lato-Black;
+  font-size: $tx-size-01;
+  margin:0rem 0rem 3rem 0rem;
+  @media screen and (max-width: $window-size-03) {
+    font-size: $tx-size-05 + .2;
+  }
+}
+
+.tx-section-terminos-02{
+  color:$color01;
+  font-family: $Lato-Regular;
+  font-size: $tx-size-05 + .2;
+  @media screen and (max-width: $window-size-03) {
+    font-size: $tx-size-05 - .2;
+  }
+}
+  
+.tx-section-terminos-03{
+	color:$negro;
+  font-family: $Lato-Regular;
+  font-size: $tx-size-05;
+  text-align: justify;
+  @media screen and (max-width: $window-size-03) {
+    font-size: $tx-size-06;
+  }
+}
+
+.enlace-terminos{
+  color: blue;
+  font-family: $Lato-Light;
+  font-size: $tx-size-06;
+}
+
+/* MENSAJE ENVIADO */
+.section-mensaje-enviado{
+  padding: 3rem 0rem 0rem 0rem;
+  @media screen and (max-width: $window-size-04) {
+    padding: 0rem 0rem 0rem 0rem;
+  }
+}
+
+.section-mensaje-enviado-xs{
+  background: url('../images/formulario-pruebas-psicotecnicas-bg-mobile-psicoalianza-psa-web-psa-sitio-web-2020-psa-imagenes-sitio-web.webp');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0rem 3rem 0rem 3rem;
+  h1:nth-child(1){
+    color: $blanco;
+    font-family: $Lato-Black;
+    font-size: $tx-size-05 + .2;
+    text-align: center;
+    margin: 5rem 0rem 0rem 0rem;
+  }
+  p:nth-child(2){
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-06;
+    text-align: center;
+    margin: 5rem 0rem 0rem 0rem;
+    span{
+      font-family: $Lato-Bold;
+    }
+  }
+}
+
+.tx-section-mensaje-enviado-01{
+	color:$color01;
+  font-family: $Lato-Regular;
+  font-size: $tx-size-01;
+  text-align:center;
+  margin: 0rem 0rem 6rem 0rem;
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-02;
+  }
+}
+.tx-section-mensaje-enviado-02{
+	color:$negro;
+  font-family: $Lato-Regular;
+  font-size: $tx-size-03;
+  text-align:center;
+  margin: 0rem 0rem 6rem 0rem;
+  span{
+    font-family: $Lato-Bold;
+  }
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-04;
+  }
+}
+.tx-section-mensaje-enviado-03{
+	color:$color01;
+  font-family: $Lato-Bold;
+  font-size: $tx-size-05;
+  margin: 0rem 0rem 2rem 0rem;
+  line-height: 1.2;
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-06;
+  }
+  @media screen and (max-width: $window-size-04) {
+    font-family: $Lato-Regular;
+    font-size: $tx-size-06;
+    text-align: center;
+    margin: 5rem 0rem 2rem 0rem;
+  }
+}
+
+
+/* TRANSICION ENVIO DE DATOS */
+@keyframes transicion-envio{
+  0%{
+    transform: scale(initial);
+  }
+  20%{
+    transform: scale(.9);
+  }
+  35%{
+    transform: scale(1.1);
+  }
+  60%{
+    transform: scale(0.25);
+    opacity:1;
+  }
+  90%{
+    transform: scale(0.25);
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+.animacion-form{
+  animation-name: transicion-envio;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  opacity: 1;
+}
+
+@keyframes opacidad-contenido{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.suavizar-opacidad{
+  animation-name: opacidad-contenido;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+
+.spinner-border.loader-form{
+  color: #2A2A80;
+  width: 60px;
+  height: 60px;
+  margin-top: 180px;
+}
+@media screen and (max-width: 575px) {
+  .spinner-border.loader-form{
+    margin-top: 90px;
+  }
+}
+
+.tx-seccion-form-send {
+  color: #2A2A80;
+  font-family: $Lato-Regular;
+  font-size: 40px;
+  text-align: center;
+  margin: 40px 0px 40px 0px;
+}
+@media screen and (max-width: 1650px) {
+  .tx-seccion-form-send {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .tx-seccion-form-send {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .tx-seccion-form-send {
+    margin: 30px 0px 30px 0px;
+  }
+}

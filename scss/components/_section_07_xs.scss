@@ -1,0 +1,34 @@
+/*SECTION 07 XS*/
+.section-home-xs-07{
+  padding: 9rem 0rem 8rem 0rem;
+}
+
+.content-section-home-xs-07-01{
+  h2:nth-child(1){
+    color: $color01;
+    font-family: $Lato-Black;
+    font-size: $tx-size-05;
+    margin: 0rem 0rem 4rem 0rem;
+    text-align: center;
+  }
+  p:nth-child(2){
+    color: $negro;
+    font-family: $Lato-Bold;
+    font-size: $tx-size-06;
+    line-height: 1.5;
+    margin: 0rem 0rem 2rem 0rem;
+    text-align: center;
+  }
+  p:nth-child(3){
+    color: $negro;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-06;
+    line-height: 1.5;
+    margin: 0rem 0rem 5rem 0rem;
+    text-align: center;
+    span a{
+      color: $color09;
+      font-size: $tx-size-06;
+    }
+  }
+}

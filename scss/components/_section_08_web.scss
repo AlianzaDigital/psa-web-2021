@@ -1,0 +1,66 @@
+/*SECTION 08 WEB*/
+.section-home-08{
+  padding: 5rem 0rem 16rem 0rem;
+  background: $gris01;
+}
+
+.tx-section-home-08-01{
+  color: $color01;
+  font-family: $Lato-Black;
+  font-size: $tx-size-02;
+  margin: 0rem 0rem 8rem 0rem;
+  text-align: center;
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-02;
+  }
+}
+
+.content-section-home-08-01{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  @media screen and (max-width: $window-size-02) {
+    height: 200px;
+  }
+}
+
+.content-section-home-08-02{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 0rem 0rem 0rem;
+  height: 250px;
+  @media screen and (max-width: $window-size-02) {
+    height: 200px;
+  }
+  p:nth-child(1){
+    color: $negro;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-05;
+    margin: 0rem 0rem 3rem 0rem;
+    line-height: 1.5;
+    span{
+      font-family: $Lato-Bold;
+    }
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-06;
+    }
+  }
+  p:nth-child(2){
+    color: $negro;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-05;
+    margin: 0rem 0rem 0rem 0rem;
+    line-height: 1.5;
+    span{
+      font-family: $Lato-Bold;
+    }
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-06;
+    }
+  }
+}

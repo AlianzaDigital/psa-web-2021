@@ -1,0 +1,25 @@
+/*SECTION 04 WEB*/
+.section-web-04{
+  padding: 60px 0px 30px 0px;
+  background-color: $claro01;
+}
+
+.tx-section-web-04_01{
+  text-align: center;
+  margin:15px 0px 0px 0px;
+  font-size: $tx-size-05 - .2;
+  font-family: $Lato-Bold;
+  color: $color01;
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-06;
+  }
+}
+.tx-section-web-04_02{
+  text-align: center;
+  margin:10px 0px 0px 0px;
+  font-size: $tx-size-05 - .2;
+  font-family: $Lato-Regular;
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-06;
+  }
+}

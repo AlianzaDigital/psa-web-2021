@@ -1,0 +1,44 @@
+/*SECTION 07 WEB*/
+.section-home-07{
+  padding: 9rem 0rem 8rem 0rem;
+}
+
+.content-section-home-07-01{
+  margin: 0rem 0rem 6rem 0rem;
+  h2:nth-child(1){
+    color: $color01;
+    font-family: $Lato-Black;
+    font-size: $tx-size-01;
+    margin: 0rem 0rem 4rem 0rem;
+    text-align: center;
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-02;
+    }
+  }
+  p:nth-child(2){
+    color: $negro;
+    font-family: $Lato-Bold;
+    font-size: $tx-size-05;
+    line-height: 1.5;
+    margin: 0rem 0rem 3rem 0rem;
+    text-align: center;
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-06;
+    }
+  }
+  p:nth-child(3){
+    color: $negro;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-05;
+    line-height: 1.5;
+    margin: 0rem 0rem 5rem 0rem;
+    text-align: center;
+    span a{
+      color: $color09;
+      font-size: $tx-size-05;
+    }
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-06;
+    }
+  }
+}

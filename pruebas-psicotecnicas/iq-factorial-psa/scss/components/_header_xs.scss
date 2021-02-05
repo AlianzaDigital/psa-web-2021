@@ -1,0 +1,210 @@
+/*MAQUETACION XS*/
+.menu-xs-psico.navbar{
+  // background: #2C327D;
+  background: $color01;
+  padding: .5rem 0rem 0rem 0rem;
+  justify-content: center;
+}
+
+.menu-xs-psico.head-tablet.navbar{
+  // background-color: #1E1E1E;
+  background-color:$color09;
+  // background: #2B478C;
+  padding: .5rem 0rem 0rem 0rem;
+  justify-content: center;
+}
+
+.color-active-menu-xs{
+  background: $color01;
+}
+
+.menu-xs-psico.navbar a img{
+  padding: 5px 0px 10px 0px;
+}
+
+.menu-xs-psico.navbar-toggler{
+  position: absolute;
+  right: 0px;
+  top:0px;
+  padding: 0rem .75rem;
+  outline: none;
+}
+
+.menu-xs-psico.collapse{
+  background: #0A0A21;
+}
+
+.menu-xs-psico.navbar-nav .nav-item .nav-link{
+  color:$blanco;
+  text-align: center;
+  font-family: $Lato-Regular;
+  font-size: $tx-size-06;
+  padding: 15px 0px 15px 0px;
+  border-bottom: 1px solid rgba(255,255,255,.3);
+  @media screen and (max-width: $window-size-05-b) {
+    font-size: $tx-size-06 - 2;
+  }
+  position: relative;
+  span{
+    position: absolute;
+    right: 15px;
+  }
+}
+
+.nav-link.dropdown-toggle.pruebas-psa{
+  color:$blanco;
+  position: relative;
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+  font-family: $Lato-Regular;
+  font-size: $tx-size-06;
+  span{
+    position: absolute;
+    right: 15px;
+  }
+  @media screen and (max-width: $window-size-05-b) {
+    font-size: $tx-size-06 - 2;
+  }
+  &:hover{
+    color: $blanco;
+  }
+}
+.nav-link.dropdown-toggle.pruebas-psa.active{
+  background: $gradient08;
+}
+
+.nav-link.dropdown-toggle.pruebas-psa::after{
+  display: none;
+}
+
+.menu-xs-psico.dropdown-menu .item{
+  display: block;
+  width: 100%;
+  background: $color09;
+  color:$blanco;
+  font-size: $tx-size-06;
+  font-family: $Lato-Regular;
+  padding: 15px 0px 15px 15px;
+  @media screen and (max-width: $window-size-05-b) {
+    font-size: $tx-size-06 - 2;
+  }
+}
+.menu-xs-psico .item.categoria-prueba-xs{
+  display: block;
+  width: 100%;
+  background: $gradient10;
+  color:$blanco;
+  font-size: $tx-size-06;
+  font-family: $Lato-Regular;
+  padding: 15px 0px 15px 15px;
+  // pointer-events: none;
+  // cursor: default;
+  @media screen and (max-width: $window-size-05-b) {
+    font-size: $tx-size-06 - 2;
+  }
+  span{
+    position: absolute;
+    right: 15px;
+  }
+  @media screen and (max-width: $window-size-05-b) {
+    font-size: $tx-size-06 - 2;
+  }
+}
+.menu-xs-psico .item.class-02{
+  position: relative;
+  background: $color09;
+  color:$blanco;
+  font-size: $tx-size-06;
+  font-family: $Lato-Light;
+  padding: 15px 0px 15px 15px;
+  span{
+    position: absolute;
+    right: 15px;
+  }
+  @media screen and (max-width: $window-size-05-b) {
+    font-size: $tx-size-06 - 2;
+  }
+}
+
+
+.menu-xs-psico.card-body{
+  padding: 0px 0px 0px 0px;
+}
+.menu-xs-psico.card{
+  background: none;
+}
+
+
+
+
+.menu-xs-psico.dropdown-divider{
+  border-top:1px solid rgba(255, 255, 255, 0.3);
+  margin:0px;
+}
+
+.nav-link.edicion-2020{
+  color:$blanco;
+  text-align: center;
+  font-family: $Lato-Light;
+  font-size: $tx-size-06;
+  padding: 15px 0px 15px 0px;
+  background: $gradient02;
+  border-bottom: 1px solid rgba(255,255,255,.3);
+}
+
+
+/* HEADER */
+.header-xs{
+  position: relative;
+  background: url('../images/bg-header-xs.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  height: 680px;
+  padding: 50px 0px 0px 0px;
+  @media screen and (max-width: $window-size-05-a) {
+    padding: 40px 0px 0px 0px;
+    height: 580px;
+  }
+  @media screen and (max-width: $window-size-05-b) {
+    padding: 30px 0px 0px 0px;
+    height: 520px;
+  }
+}
+
+.absolute-header-xs{
+  position: absolute;
+  left:0;
+  right:0;
+  bottom: -80px;
+  margin: 0 auto;
+  @media screen and (max-width: $window-size-05-a) {
+    width: 135px;
+    bottom: -70px;
+  }
+  @media screen and (max-width: $window-size-05-b) {
+    bottom: -60px;
+  }
+}
+
+.tx-header-xs-01{
+  margin:0px 0px 0px 0px;
+  font-family: $Lato-Black;
+  color:$blanco;
+  font-size: $tx-size-07;
+}
+.tx-header-xs-02{
+  margin:20px 0px 0px 0px;
+  font-family: $Lato-Black;
+  color:$blanco;
+  font-size: $tx-size-05 + .2;
+}
+.img-header-xs-01{
+  margin:50px 0px 0px 0px;
+  @media screen and (max-width: $window-size-05-a) {
+    margin:40px 0px 0px 0px;
+  }
+  @media screen and (max-width: $window-size-05-b) {
+    margin:30px 0px 0px 0px;
+  }
+}

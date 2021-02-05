@@ -1,0 +1,258 @@
+/*MODALES WEB*/
+/* MODAL CONTACTO SOPORTE */
+.modal{
+  z-index: 1700;
+}
+
+.modal-lg.contacto-soporte-web{
+  max-width: 1000px;
+}
+.modal-content.contacto-soporte-web{
+  border: none;
+  text-align: center;
+  padding: 170px;
+  @media screen and (max-width: $window-size-01) {
+    padding: 100px;
+    font-size: $tx-size-04;
+  }
+  @media screen and (max-width: $window-size-02) {
+    padding: 80px;
+    font-size: $tx-size-03;
+  }
+}
+.backdrop-contacto-soporte-web{
+  background-color: $blanco;
+  opacity: 1 !important;
+  z-index: 1650;
+}
+.close.contacto-soporte-web{
+  position: absolute;
+  color: $negro;
+  right: 140px;
+  top: 150px;
+  font-size: 44px;
+  @media screen and (max-width: $window-size-01) {
+    right: 140px;
+    top: 90px;
+  }
+  @media screen and (max-width: $window-size-02) {
+    right: 140px;
+    top: 70px;
+  }
+}
+.img-menu-contacto{
+  width: 120px;
+}
+
+@keyframes animacion-puntos {
+	0%{
+		transform: initial;
+  }
+	7% {
+		transform: translateY(-20px);
+  }
+  20% {
+		transform: initial;
+  }
+  100% {
+		transform: initial;
+  }
+}
+
+.punto-menu{
+  background: url('../images/img_menu_contacto_web.webp');
+  background-position: center;
+  background-size: 120px;
+  width: 120px;
+  height: 140px;
+  display: block;
+  margin: 0px auto 20px auto;
+  background-repeat: no-repeat;
+  color: $blanco;
+  font-family: $Lato-Regular;
+  font-size: 80px;
+  z-index: 800;
+  padding-bottom: 20px;
+  line-height: 100px;
+}
+.punto-menu-01{
+  display: inline-block;
+  animation: animacion-puntos 3.3s linear infinite;
+}
+.punto-menu-02{
+  display: inline-block;
+  animation: animacion-puntos 3.3s linear infinite;
+  animation-delay: .3s;
+}
+.punto-menu-03{
+  display: inline-block;
+  animation: animacion-puntos 3.3s linear infinite;
+  animation-delay: .5s;
+}
+
+
+@keyframes escribir {
+  0% {
+    width: 100%;
+    opacity: 1;
+    border-left: 1px solid #FFF;
+  }
+  95% {
+    width: 0%;
+    opacity: 1;
+    border-left: 1px solid #FFF;
+  }
+  100% {
+    width: 0%;
+    border-left: none;
+  }
+}
+.tx-modal-web-contacto-01{
+	position: relative; 
+	float: left;
+  color: $color01;
+  font-family: $Lato-Light;
+  font-size: $tx-size-03;
+  margin:30px auto 30px auto;
+  span{
+    color: transparent;
+    position:absolute;
+    right:0;
+    width:0%;
+    background: $blanco;
+    animation: escribir 1s steps(30) 1;
+  }
+  @media screen and (max-width: $window-size-01) {
+    font-size: $tx-size-04;
+  }
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-04;
+  }
+}
+.tx-modal-web-contacto-02{
+  width: 65%;
+  color: $color01;
+  font-family: $Lato-Medium;
+  font-size: $tx-size-05;
+  text-align: center;
+  border:1px solid $color01;
+  border-radius: 25px;
+  padding: 10px 15px 10px 30px;
+  margin: 0px 0px 20px 0px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, .2);
+  z-index: 1001;
+  span{
+    margin-top: 6px;
+    height: 19px;
+    width: 10px;
+    float: right;
+    background: url('../images/icono_soporte.webp');
+    background-size: 10px 19px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  @media screen and (max-width: $window-size-01) {
+    font-size: $tx-size-05;
+  }
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-06;
+  }
+}
+.tx-modal-web-contacto-02.no-margin{
+  margin: 0px 0px 0px 0px;
+}
+.tx-modal-web-contacto-02.si-margin{
+  margin: 20px 0px 0px 0px;
+}
+.tx-modal-web-contacto-02:focus{
+  text-decoration: none;
+  color:$color01;
+  background-color: transparent;
+}
+
+.tx-modal-web-contacto-02:hover{
+  text-decoration: none;
+  color:$blanco;
+  background-color: $color01;
+  span{
+    margin-top: 6px;
+    height: 19px;
+    width: 10px;
+    float: right;
+    background: url('../images/icono_soporte_hover.webp');
+    background-size: 10px 19px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.tx-modal-web-contacto-02.active{
+  text-decoration: none;
+  color:$blanco;
+  background-color: $color01;
+  span{
+    margin-top: 12px;
+    height: 10px;
+    width: 19px;
+    float: right;
+    background: url('../images/icono_soporte_down.webp');
+    background-size: 19px 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  z-index: 1001;
+}
+
+.collapse-menu-contacto{
+  width: 65%;
+  padding:5px 10px 5px 10px;
+  border-top: 1px solid transparent;
+  z-index: 1000;
+}
+.tx-modal-web-contacto-03{
+  color: $color01;
+  font-family: $Lato-Light;
+  font-size: $tx-size-05;
+  text-align: left;
+  border-bottom: 1px solid $claro01;
+  padding: 10px 0px;
+  span{
+    border-left: 1px solid $color01;
+    float: right;
+    width: 160px;
+    text-align: right;
+    @media screen and (max-width: $window-size-01) {
+      width: 210px;
+    }
+  }
+  @media screen and (max-width: $window-size-01) {
+    font-size: $tx-size-05;
+    
+  }
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-06;
+  }
+}
+
+.tx-modal-web-contacto-04{
+  color: $color01;
+  font-family: $Lato-Light;
+  font-size: $tx-size-05;
+  text-align: left;
+  padding: 10px 0px;
+  span{
+    border-left: 1px solid $color01;
+    float: right;
+    width: 160px;
+    text-align: right;
+    @media screen and (max-width: $window-size-01) {
+      width: 210px;
+    }
+  }
+  @media screen and (max-width: $window-size-01) {
+    font-size: $tx-size-05;
+  }
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-06;
+  }
+}

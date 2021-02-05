@@ -1,0 +1,56 @@
+/* SLIDERS */
+.sliderHome01.carousel.slide{
+  height: 100%;
+}
+
+.sliderHome01.carousel-indicators{
+  bottom: 30px;
+}
+
+.sliderHome01.carousel-indicators li{
+  background-color: transparent;
+  span{
+    display: block;
+    background: url('../images/icon-indicator-slider-home-01.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 13px;
+    height: 13px;
+    margin: 0 auto;
+  }
+}
+
+.sliderHome01.carousel-indicators li.active{
+  span{
+    display: block;
+    background: url('../images/icon-indicator-slider-home-active-01.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 14px;
+    height: 14px;
+  }
+}
+
+
+.sliderHome02.carousel-indicators{
+  position: static;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.sliderHome02.carousel-indicators li{
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  text-indent: unset;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  span{
+    margin: 0 auto;
+  }
+}

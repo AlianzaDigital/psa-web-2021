@@ -1,0 +1,62 @@
+/*SECTION 01 XS*/
+.section-home-xs-01{
+  background: url('../images/background-slider-xs-home-psicoalianza.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  height: 550px;
+  transition: .5s;
+}
+
+.sliderHomeMobile01.carousel-indicators{
+  bottom: 15px;
+}
+
+.sliderHomeMobile01.carousel-inner{
+  height: 550px;
+}
+
+.sliderHomeMobile01.carousel-indicators li{
+  background-color: transparent;
+  span{
+    display: block;
+    background: url('../images/icon-indicator-slider-home-01.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 13px;
+    height: 13px;
+    margin: 0 auto;
+  }
+}
+
+.sliderHomeMobile01.carousel-indicators li.active{
+  span{
+    display: block;
+    background: url('../images/icon-indicator-slider-home-active-01.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 14px;
+    height: 14px;
+  }
+}
+
+.content-section-home-xs-01{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 550px;
+  p:nth-child(1){
+    color: $blanco;
+    font-family: $Lato-Bold;
+    font-size: $tx-size-06;
+    text-transform: uppercase;
+    margin:0rem 0rem 3rem 0rem;
+  }
+  h1:nth-child(2){
+    color: $blanco;
+    font-family: $Lato-Black;
+    font-size: $tx-size-05;
+  }
+}

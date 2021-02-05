@@ -1,0 +1,17 @@
+# Regla General - Todos los buscadores
+User-agent: *
+Allow: /index.html
+Allow: /pruebas-psicotecnicas/tendisc.html
+Allow: /pruebas-psicotecnicas/potencial-comercial.html
+Allow: /pruebas-psicotecnicas/ethikos.html
+Allow: /pruebas-psicotecnicas/iq-factorial.html
+Allow: /pruebas-psicotecnicas/v&p-test.html
+Allow: /pruebas-psicotecnicas/evaluacion-360.html
+Allow: /soporte-candidatos.html
+Disallow: /error-404.html
+Disallow: /formulario-accion.html
+Disallow: /mensaje-enviado-accion.html
+Disallow: /terminos-condiciones.html
+
+# Ubicacion Sitemap
+Sitemap: https://psicoalianza.com/sitemap.xml

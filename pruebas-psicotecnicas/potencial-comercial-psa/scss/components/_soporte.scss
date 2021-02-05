@@ -1,0 +1,178 @@
+/* SOPORTE */
+.nav-soporte{
+  padding: 32px 0px 32px 0px;
+  box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+}
+
+.seccion_01_soporte{
+  padding: 70px 0px 70px 0px;
+  @media screen and (max-width: $window-size-05) {
+    padding: 25px 0px 70px 0px;
+  }
+}
+
+.tx-seccion-01-soporte-01{
+  color: $color01;
+  font-family: $Lato-Light;
+  font-size: $tx-size-03;
+  text-align: center;
+  margin: 40px 0px 10px 0px;
+  @media screen and (max-width: $window-size-01) {
+    font-size: $tx-size-04;
+  }
+}
+
+.tx-seccion-01-soporte-02{
+  color: $color01;
+  font-family: $Lato-Light;
+  font-size: $tx-size-03;
+  text-align: center;
+  margin: 0px 0px 70px 0px;
+  @media screen and (max-width: $window-size-01) {
+    font-size: $tx-size-04;
+  }
+  @media screen and (max-width: $window-size-05) {
+    margin: 30px 0px 60px 0px;
+  }
+}
+
+.tx-seccion-01-soporte-03{
+  display: block;
+  width: 100%;
+  color: $color01;
+  font-family: $Lato-Regular;
+  font-size: $tx-size-05;
+  margin: 0px 0px 0px 0px;
+  text-decoration: none;
+  text-align: left;
+  padding: 15px 20px;
+  span{
+    float: right;
+    @media screen and (max-width: $window-size-05) {
+      float: initial;
+      display: block;
+      margin:20px 0px 0px 0px;
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: $window-size-01) {
+    font-size: $tx-size-05;
+  }
+  @media screen and (max-width: $window-size-05) {
+    text-align: center;
+    font-size: $tx-size-06;
+  }
+}
+
+.tx-seccion-01-soporte-03:focus{
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.tx-seccion-01-soporte-03:hover{
+  text-decoration: none;
+  color: $color01;
+}
+
+.soporte.accordion>.card>.card-header {
+  border-radius: 0;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.soporte.accordion>.card {
+  border:none;
+}
+
+.soporte.accordion>.card>.card-header {
+  // background: $blanco;
+  border:none;
+  border-radius: 12px;
+  box-shadow: 0px 10px 10px rgba(0,0,0,.2);
+}
+
+.margen-card-body.card-body{
+  padding:0px 32px 32px 32px;
+}
+
+.margen-card-body.card-body{
+  padding:0px 32px 32px 32px;
+  font-size: $tx-size-06;
+  span{
+    font-family: $Lato-Bold;
+  }
+  a{
+    font-size: $tx-size-06;
+    margin-right: 20px;
+    color:$color01;
+    text-decoration: underline;
+    &:hover{
+      color:$color01;
+      text-decoration: underline;
+    }
+  }
+  @media screen and (max-width: $window-size-01) {
+    font-size: $tx-size-06;
+  }
+  @media screen and (max-width: $window-size-05) {
+    font-size: $tx-size-06;
+  }
+}
+
+.regresar-inicio{
+  display: block;
+  font-size: $tx-size-05;
+  color: $color01;
+  margin-top:20px;
+  span{
+    margin-right:10px;
+    img{
+      width: 7px;
+    }
+    @media screen and (max-width: $window-size-05) {
+      font-size: $tx-size-06;
+      margin-right:7px;
+      img{
+        width: 6px;
+      }
+    }
+
+  }
+  &:hover{
+    text-decoration: none;
+    color: $color01;
+  }
+  @media screen and (max-width: $window-size-05) {
+    font-size: $tx-size-06;
+    margin-top:0px;
+  }
+}
+
+.regresar-inicio-02{
+  display: block;
+  font-size: $tx-size-04;
+  color: $color01;
+  margin-top:20px;
+  span{
+    margin-right:20px;
+    img{
+      width: 7px;
+    }
+    @media screen and (max-width: $window-size-05) {
+      font-size: $tx-size-03;
+      margin-right:7px;
+      img{
+        width: 6px;
+      }
+    }
+  }
+  &:hover{
+    text-decoration: none;
+    color: $color01;
+  }
+  @media screen and (max-width: $window-size-05) {
+    font-size: $tx-size-06;
+    margin-top:0px;
+  }
+}

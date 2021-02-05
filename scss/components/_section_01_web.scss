@@ -1,0 +1,112 @@
+/*SECTION 01 WEB*/
+.section-home-01{
+  background: url('../images/background-slider-home-psicoalianza.webp');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 830px;
+  transition: .5s;
+  @media screen and (max-width: 1920px) {
+    background-size: 1920px 830px;
+  }
+  @media screen and (max-width: $window-size-01) {
+    background-size: 1590px 690px;
+    height: 690px;
+  }
+  @media screen and (max-width: 1399px) {
+    background-size: 1400px 605px;
+    height: 605px;
+  }
+}
+
+.content-section-home-01{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 830px;
+  @media screen and (max-width: $window-size-01) {
+    height: 690px;
+  }
+  @media screen and (max-width: 1399px) {
+    height: 605px;
+  }
+  h5:nth-child(1){
+    color: $blanco;
+    font-family: $Lato-Bold;
+    font-size: $tx-size-06;
+    text-transform: uppercase;
+    margin: 0rem 0rem 4rem 0rem;
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-07;
+      margin: 0rem 0rem 2rem 0rem;
+    }
+  }
+  h1:nth-child(2){
+    color: $blanco;
+    font-family: $Lato-Black;
+    font-size: $tx-size-01;
+    margin: 0rem 0rem 4rem 0rem;
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-03;
+      margin: 0rem 0rem 2rem 0rem;
+    }
+  }
+  p:nth-child(3){
+    display: flex;
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-05;
+    margin: 0rem 0rem 2.5rem 0rem;
+    line-height: 1.5;
+    span{
+      margin:0rem 1rem 0rem 1rem;
+    }
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-06;
+      margin: 0rem 0rem 1.5rem 0rem;
+    }
+  }
+  p:nth-child(4){
+    display: flex;
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-05;
+    line-height: 1.5;
+    margin: 0rem 0rem 2.5rem 0rem;
+    span{
+      margin:0rem 1rem 0rem 1rem;
+    }
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-06;
+      margin: 0rem 0rem 1.5rem 0rem;
+    }
+  }
+  p:nth-child(5){
+    display: flex;
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-05;
+    line-height: 1.5;
+    margin: 0rem 0rem 0rem 0rem;
+    span{
+      margin:0rem 1rem 0rem 1rem;
+    }
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-06;
+      margin: 0rem 0rem 1.5rem 0rem;
+    }
+  }
+}
+
+.content-section-home-02{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 830px;
+  @media screen and (max-width: $window-size-01) {
+    height: 690px;
+  }
+  @media screen and (max-width: 1399px) {
+    height: 605px;
+  }
+}
