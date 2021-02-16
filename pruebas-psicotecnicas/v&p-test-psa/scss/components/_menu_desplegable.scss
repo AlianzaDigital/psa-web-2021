@@ -1,7 +1,7 @@
 /* MENU DESPLEGABLE */
 @keyframes animacion-iconos{
 	0%{
-    background-image: url('../images/sprite_btn_contacto_web_01.webp');
+    background-image: url('../../images/sprite_btn_contacto_web_01.webp');
     transform: rotateZ(0deg) scale(1);
   }
   5%{
@@ -11,34 +11,34 @@
     transform: rotateZ(0deg) scale(1);
   }
   40%{
-    background-image: url('../images/sprite_btn_contacto_web_01.webp');
+    background-image: url('../../images/sprite_btn_contacto_web_01.webp');
     transform: rotateZ(0deg) scale(1);
   }
   45%{
-    background-image: url('../images/sprite_btn_contacto_web_02.webp');
+    background-image: url('../../images/sprite_btn_contacto_web_02.webp');
     transform: rotateZ(360deg) scale(0);
   }
   50%{
-    background-image: url('../images/sprite_btn_contacto_web_02.webp');
+    background-image: url('../../images/sprite_btn_contacto_web_02.webp');
     transform: rotateZ(0deg) scale(1);
   }
   55%{
-    background-image: url('../images/sprite_btn_contacto_web_02.webp');
+    background-image: url('../../images/sprite_btn_contacto_web_02.webp');
     transform: rotateZ(0deg) scale(1.1);
   }
   60%{
     transform: rotateZ(0deg) scale(1);
   }
   90%{
-    background-image: url('../images/sprite_btn_contacto_web_02.webp');
+    background-image: url('../../images/sprite_btn_contacto_web_02.webp');
     transform: rotateZ(0deg) scale(1);
   }
   95%{
-    background-image: url('../images/sprite_btn_contacto_web_01.webp');
+    background-image: url('../../images/sprite_btn_contacto_web_01.webp');
     transform: rotateZ(360deg) scale(0);
   }
   100%{
-    background-image: url('../images/sprite_btn_contacto_web_01.webp');
+    background-image: url('../../images/sprite_btn_contacto_web_01.webp');
     transform: rotateZ(0deg) scale(1);
   }
 }
@@ -47,7 +47,7 @@
   position: fixed;
   right: 0px;
   top: 630px;
-  background: url('../images/boton-contacto-rapido-whatsapp-psicoalianza.webp');
+  background: url('../../images/boton-contacto-rapido-whatsapp-psicoalianza.webp');
   background-size: 113px 112px;
   background-position: right center;
   background-repeat: no-repeat;
