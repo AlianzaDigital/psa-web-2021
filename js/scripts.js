@@ -150,3 +150,36 @@ function myFunction() {
   document.getElementById("progress-bar-xs").style.width = scrolled + "%";
 }
 
+// SLIDES CUSTOM
+$('#slider-HomeMobile01').on('slide.bs.carousel', function onSlide (ev) {
+  var id = ev.relatedTarget.id;
+  // console.log(id) 
+  // console.log(ev.direction)
+  
+  switch (id) {
+    case "item-slider-home-xs-01-01":
+      $('#slider-HomeMobile01').addClass('custom-active')
+      $('#section-home-xs-01').addClass('custom-active')
+      break;
+    default:
+      $('#slider-HomeMobile01').removeClass('custom-active')
+      $('#section-home-xs-01').removeClass('custom-active')
+      break;
+  }
+})
+$('#slider-Home01').on('slide.bs.carousel', function onSlide (ev) {
+  var id = ev.relatedTarget.id;
+  // console.log(id) 
+  // console.log(ev.direction)
+  
+  switch (id) {
+    case "item-slider-home-01-01":
+      $('#slider-Home01').addClass('custom-active')
+      $('#section-home-01').addClass('custom-active')
+      break;
+    default:
+      $('#slider-Home01').removeClass('custom-active')
+      $('#section-home-01').removeClass('custom-active')
+      break;
+  }
+})

@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
-  height: 550px;
+  height: 600px;
   transition: .5s;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .sliderHomeMobile01.carousel-inner{
-  height: 550px;
+  height: 600px;
 }
 
 .sliderHomeMobile01.carousel-indicators li{
@@ -46,7 +46,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 550px;
+  height: 600px;
   p:nth-child(1){
     color: $blanco;
     font-family: $Lato-Bold;
