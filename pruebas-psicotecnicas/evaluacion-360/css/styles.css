@@ -58,33 +58,33 @@ a:hover {
 /* TIPOGRAFIAS */
 @font-face {
   font-family: "Lato-Black";
-  src: url("/fonts/Lato-Black.ttf") format("truetype");
+  src: url("../fonts/Lato-Black.ttf") format("truetype");
   font-weight: normal;
 }
 @font-face {
   font-family: "Lato-Bold";
-  src: url("/fonts/Lato-Bold.ttf") format("truetype");
+  src: url("../fonts/Lato-Bold.ttf") format("truetype");
   font-weight: normal;
 }
 @font-face {
   font-family: "Lato-Light";
-  src: url("/fonts/Lato-Light.ttf") format("truetype");
+  src: url("../fonts/Lato-Light.ttf") format("truetype");
   font-weight: normal;
 }
 @font-face {
   font-family: "Lato-Regular";
-  src: url("/fonts/Lato-Regular.ttf") format("truetype");
+  src: url("../fonts/Lato-Regular.ttf") format("truetype");
   font-weight: normal;
 }
 @font-face {
   font-family: "Lato-Thin";
-  src: url("/fonts/Lato-Thin.ttf") format("truetype");
+  src: url("../fonts/Lato-Thin.ttf") format("truetype");
   font-weight: normal;
 }
 @font-face {
   font-family: "psa-icon-font";
-  src: url("/fonts/icomoon.eot?kd5vfr");
-  src: url("/fonts/icomoon.eot?kd5vfr#iefix") format("embedded-opentype"), url("/fonts/icomoon.ttf?kd5vfr") format("truetype"), url("/fonts/icomoon.woff?kd5vfr") format("woff"), url("/fonts/icomoon.svg?kd5vfr#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?kd5vfr");
+  src: url("../fonts/icomoon.eot?kd5vfr#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?kd5vfr") format("truetype"), url("../fonts/icomoon.woff?kd5vfr") format("woff"), url("../fonts/icomoon.svg?kd5vfr#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -1159,7 +1159,7 @@ header.collapse-show {
   margin: 0rem 0rem 0rem 3rem;
   padding: 1.4rem 0rem;
   color: #F5F5F5;
-  font-family: "Lato-Regular";
+  font-family: "Lato-Light";
   font-size: 1.6rem;
 }
 .container-collapse-xs-01 h3:nth-child(2) a:focus,
@@ -1300,7 +1300,7 @@ header.collapse-show {
 /* HEADER */
 .header-xs {
   position: relative;
-  background: url("../images/header-xs-evaluacion-desempeno-psicoalianza.webp");
+  background: url("../images/bg-header-xs.webp");
   background-repeat: no-repeat;
   background-position: center 0px;
   background-size: 100% 100%;
@@ -1752,7 +1752,7 @@ span .contacto-agil.icon-menu-mobile-close {
 /* MENU DESPLEGABLE */
 @keyframes animacion-iconos {
   0% {
-    background-image: url("../images/boton-logo-contacto-rapido-whatsapp-evaluacion-desempeno-psicoalianza.webp");
+    background-image: url("../images/sprite_btn_contacto_web_01.webp");
     transform: rotateZ(0deg) scale(1);
   }
   5% {
@@ -1762,34 +1762,34 @@ span .contacto-agil.icon-menu-mobile-close {
     transform: rotateZ(0deg) scale(1);
   }
   40% {
-    background-image: url("../images/boton-logo-contacto-rapido-whatsapp-evaluacion-desempeno-psicoalianza.webp");
+    background-image: url("../images/sprite_btn_contacto_web_01.webp");
     transform: rotateZ(0deg) scale(1);
   }
   45% {
-    background-image: url("../images/boton-telefono-contacto-rapido-whatsapp-evaluacion-desempeno-psicoalianza.webp");
+    background-image: url("../images/sprite_btn_contacto_web_02.webp");
     transform: rotateZ(360deg) scale(0);
   }
   50% {
-    background-image: url("../images/boton-telefono-contacto-rapido-whatsapp-evaluacion-desempeno-psicoalianza.webp");
+    background-image: url("../images/sprite_btn_contacto_web_02.webp");
     transform: rotateZ(0deg) scale(1);
   }
   55% {
-    background-image: url("../images/boton-telefono-contacto-rapido-whatsapp-evaluacion-desempeno-psicoalianza.webp");
+    background-image: url("../images/sprite_btn_contacto_web_02.webp");
     transform: rotateZ(0deg) scale(1.1);
   }
   60% {
     transform: rotateZ(0deg) scale(1);
   }
   90% {
-    background-image: url("../images/boton-telefono-contacto-rapido-whatsapp-evaluacion-desempeno-psicoalianza.webp");
+    background-image: url("../images/sprite_btn_contacto_web_02.webp");
     transform: rotateZ(0deg) scale(1);
   }
   95% {
-    background-image: url("../images/boton-logo-contacto-rapido-whatsapp-evaluacion-desempeno-psicoalianza.webp");
+    background-image: url("../images/sprite_btn_contacto_web_01.webp");
     transform: rotateZ(360deg) scale(0);
   }
   100% {
-    background-image: url("../images/boton-logo-contacto-rapido-whatsapp-evaluacion-desempeno-psicoalianza.webp");
+    background-image: url("../images/sprite_btn_contacto_web_01.webp");
     transform: rotateZ(0deg) scale(1);
   }
 }
@@ -1797,7 +1797,7 @@ span .contacto-agil.icon-menu-mobile-close {
   position: fixed;
   right: 0px;
   top: 630px;
-  background: url("../images/boton-contacto-rapido-whatsapp-evaluacion-desempeno-psicoalianza.webp");
+  background: url("../images/boton-contacto-rapido-whatsapp-psicoalianza.webp");
   background-size: 113px 112px;
   background-position: right center;
   background-repeat: no-repeat;
@@ -1952,7 +1952,7 @@ span .contacto-agil.icon-menu-mobile-close {
 
 /* MAIN WEB */
 main {
-  background: url("../images/header-evaluacion-desempeno-psicoalianza.webp");
+  background: url("../images/bg-main-web.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -2649,7 +2649,7 @@ main {
 
 /*SECTION 06 WEB*/
 .section-web-06 {
-  background: url("../images/fondo-agendar-demostracion-de-prueba-evaluacion-desempeno-psicoalianza.webp");
+  background: url("../images/bg-section-web-06.webp");
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
